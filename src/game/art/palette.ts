@@ -1,0 +1,50 @@
+// Shared 16-bit style palette. Purple / cyan / blue accents on a dark, cozy base.
+export const PAL = {
+  outline: '#140f22',
+  void: '#0c0918',
+
+  wallDark: '#211936',
+  wall: '#2b2145',
+  wallLight: '#352a54',
+  wallStripe: '#30254d',
+  baseboard: '#1a1430',
+
+  floorDark: '#2a1d2b',
+  floor: '#3a2836',
+  floorLight: '#4a3343',
+  floorLine: '#24182a',
+
+  woodDark: '#3b2a3a',
+  wood: '#5a3f52',
+  woodLight: '#74546a',
+
+  metalDark: '#2c2e44',
+  metal: '#454866',
+  metalLight: '#6a6e92',
+
+  purple: '#7b52e8',
+  purpleDark: '#4c33a8',
+  purpleLight: '#a587ff',
+  cyan: '#4fd8e8',
+  cyanDark: '#2a8fa8',
+  cyanLight: '#a8f4ff',
+  blue: '#3a6cf0',
+  pink: '#ff5fa2',
+  yellow: '#ffd166',
+  orange: '#ff8a3d',
+  green: '#5fd38a',
+  white: '#eeeaff',
+  cream: '#d8d0f0',
+
+  skin: '#e8b48a',
+  skinShadow: '#c08560',
+  hair: '#3a2340',
+  hairLight: '#5a3a63',
+  hoodie: '#6b4bd6',
+  hoodieDark: '#4a32a0',
+  hoodieLight: '#8d70f2',
+  pants: '#26304f',
+  pantsDark: '#1b2238',
+  shoe: '#e8e8f0',
+  sole: '#8f94b0',
+} as const;
